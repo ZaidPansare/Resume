@@ -1,0 +1,37 @@
+footer{
+    /* background-color: black;
+    color: white; */
+    height: auto;
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+
+.buttons{
+    /* border: solid white; */
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    height: auto;
+}
+.buttons button{
+    padding: 10px 5px 10px 5px;
+}
+
+.buttons button{
+    height: 35px;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    border: 1px solid white;
+}
+
+#logos{
+    display: flex;
+    justify-content: space-around;
+}

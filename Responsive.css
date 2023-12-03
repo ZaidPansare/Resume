@@ -1,0 +1,42 @@
+/* navbar */
+
+@media screen and (max-width:750px) {
+    /* navbar */
+    nav{
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .navsec{
+        height: 50px;
+        width: 500px;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-around;
+        width: 500px;
+    }
+
+    .img{
+        background-size: cover;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* section */
+
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    /* footer */
+    footer{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+nav{
+    height: 130px;
+    width: 100%;
+    /* background-color: black;
+    color: white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navsec{
+    display: flex;
+    flex-wrap: wrap;
+    width: 130vh;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+}
+.logo{
+    display: flex;
+}
+.logo i{
+    font-size: 30px;
+
+}
+.sd h1{
+    font-size: 80px;
+    color: transparent;
+    background: linear-gradient(blue,blue,blue,green,yellow,hotpink,red,maroon,maroon);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.img{
+    height: 600px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./Brick.85c476fa3c2aa4dbe5fd.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-position-y: 0;
+    overflow: hidden;
+}
+#sudesh {
+    font-size: 50px;
+    
+}
+
+#sudesh{
+    background: url(./Vo2o.gif);
+    background-position: 50%;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+#webd{
+    background: url(./image_processing20210817-11522-117f9o.gif);
+    background-position: 50%;
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 40px;
+}
+#contact{
+    background: transparent;
+    border-color: red;
+    color: rgb(0, 174, 255);
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+.dongle button{
+    padding: 5px 15px;
+    font-weight: bold;
+}

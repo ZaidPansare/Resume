@@ -1,0 +1,30 @@
+main{
+    /* background-color: rgb(69, 66, 66); */
+    padding-bottom: 20px;
+   
+}
+#skills h1{
+    /* color: white; */
+    padding-top: 80px;
+}
+.box{
+    padding-top: 80px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 28px;
+    
+}
+.card{
+    height: 60px;
+    width: 280px;
+    color: white;
+    border: 1px solid black;
+    background-color: rgba(146, 143, 143, 0.669);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
